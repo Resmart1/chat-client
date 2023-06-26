@@ -1,0 +1,20 @@
+.Message {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.Message-user {
+	background-color: rgb(35, 164, 63);
+	padding: 10px;
+	border-radius: 5px;
+	align-self: start;
+}
+
+.Message-text {
+	border-radius: 0 10px 10px 10px;
+	padding: 10px;
+	display: inline-block;
+	background-color: rgb(165, 192, 9);
+	word-break: break-word; 
+}

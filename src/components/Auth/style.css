@@ -1,0 +1,22 @@
+.Auth {
+	min-height: 100%;
+	background-color: rgb(97, 67, 21);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Auth-form {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 20px;
+}
+
+.Auth-input {
+	padding: 5px;
+}
+
+.Auth-label {
+	color: orange;
+}
